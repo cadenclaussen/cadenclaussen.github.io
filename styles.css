@@ -1,18 +1,56 @@
+/*Write our CSS in here*/
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900);
+
+/* What we're selecting*/
+h1 {
+	/*How to style it*/
+	font-weight: 200;
+	font-size: 25px;
+	text-transform: uppercase;
+	border-top: 5px solid;
+}
+
 body {
-    background-color: blue;
-    color: white;
-    font-family: verdana;
+	background-color: #5e93f7;
+	color: #0000ff;
+	font-family: "Source Code Pro";
+	font-weight: 200;
+}
+
+img {
+	height: 500px;
+	border-radius: 50%;  
+}
+
+#container {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+button {
+	margin: 30px auto 0;
+	padding: 20px 25pxs;
+	background-color: #5e93f7;
+	color: #0000ff;
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid #0000ff;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+button:hover {
+	transition: 0.3s;
+	background-color: #0000ff;
+	color: #5e93f7;
+	text-decoration: underline;
 }
 
 p {
-    background-color: blue;
-    color: white;
-    font-family: verdana;
-}
-
-h1 {
-    background-color:yellow;
-    color: red;
-    font-family: palantino;
-    font-size: 300%
+	font-size: 10px;
 }
